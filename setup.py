@@ -14,7 +14,7 @@ setup(
     author_email='luisbhowell@gmail.com',
     py_modules=['ecgdetectors','hrv'],
     include_package_data=True,
-    install_requires=['numpy','pywt','pathlib','scipy','biosppy','gatspy'],
+    install_requires=['numpy','PyWavelets','pathlib','scipy','biosppy','gatspy'],
     zip_safe=False,
     url='https://github.com/luishowell/ecg-detectors',
     classifiers=[
