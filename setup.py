@@ -2,14 +2,11 @@
 
 from setuptools import setup
 
-with open('README.rst') as f:
-    long_description = f.read()
-
 setup(
     name='ecgdetectors',
     version='0.9.0',
     description="Seven ECG heartbeat detection algorithms and heartrate variability analysis",
-    long_description=long_description,
+    long_description="Seven ECG heartbeat detection algorithms and heartrate variability analysis",
     author='Luis Howell and Bernd Porr',
     author_email='luisbhowell@gmail.com',
     py_modules=['ecgdetectors','hrv'],
